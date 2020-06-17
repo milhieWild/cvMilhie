@@ -1,0 +1,201 @@
+body
+{
+	padding: 0;
+	margin: 0;
+	color: #3b4252;
+	font-family: 'Comic Neue', cursive, serif;
+
+}
+#page
+{
+	width: 1024px;
+	display: flex;
+	font-size:0.8em;
+	background-color: rgba(255, 246, 220, 1)
+}
+h1, h2
+{
+	font-family: 'Bangers', cursive;
+}
+h1
+{
+	font-size: 2em;
+}
+
+h2
+{
+	font-size: 1.5em;
+}
+h3
+{
+	font-size: 1.2em;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+a:hover
+{
+	color: #3b4252;
+}
+#page aside
+{
+	width: 30%;
+	background-color: #ffd43b;
+	color: black;
+}
+#page aside header
+{
+	height:58%;
+}
+
+#page aside header img
+{
+	width: 50%;
+	border-radius: 50%;
+	text-align: center;
+	
+}
+
+#page aside #photoCV, #page aside h3
+{
+	
+	text-align: center;
+	color: #ffd43b;
+}
+
+#page aside .title
+{
+	background-color: #3b4252;
+	padding-top: 0;
+	padding-bottom: 0;
+	
+}
+
+aside p
+{
+	text-align: left;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+#page aside header #age
+{
+	text-align:center;
+}
+aside .logos
+{
+	display: flex;
+	flex-direction: row;
+}
+aside .logo img
+{
+	width: 90%;
+}
+aside strong
+{
+	font-style: italic;
+}
+aside header #form_contact
+{
+	font-size: 1.3em;
+}
+
+#name
+{
+	color: #ffd43b;
+}
+
+#underline
+{
+	border-bottom: solid #ffd43b 3px;
+}
+
+#page main
+{
+	width: 70%;
+	background-color: rgba(254, 255, 166, 0.5);
+	padding: 50px;
+	padding-top: 5px;
+}
+#page main header
+{
+	padding-top: 0;
+}
+#page main .title
+{
+	border-bottom: solid 2px #ffd43b;
+}
+#page main table
+{
+	text-align: left;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+#page main img
+{
+	width: 5%;
+	height: 5%;
+	float: left;
+}
+#page main table th
+{
+	display: flex;
+	flex-direction: row;
+}
+#page main table
+{
+	padding-top: 20px;
+	padding-bottom: 0;
+}
+#page main table .small
+{
+	font-size: 0.6em;
+
+}
+#page main table caption
+{
+	text-align: left;
+	padding-top:20px;
+	text-decoration: underline;
+}
+#page main table tr
+{
+	margin-top: 0;
+	padding-top: 0;
+}
+#page main table th div
+{
+	display: flex;
+	flex-direction: column;
+}
+#page .title
+{
+	display:flex;
+}
+
+#page .title p img
+{
+	width: 50px;
+	height: 50px;
+}
+#page .title p
+{
+	padding-right: 0;
+}
+#page .title h2
+{
+	padding-top: 10px;
+}
+
+#comp
+{
+	display: flex;
+}
+
+#comp ul
+{
+	list-style: none;
+}
+
+#comp ul li
+{
+	padding: 20px;
+}
